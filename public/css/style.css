@@ -153,3 +153,10 @@ body{
     border-top: none;
     border-right: none;
 }
+
+.visuel{
+    height: 150px; 
+    width: 450px; 
+    border: solid 1px lightgray; 
+    margin-top: 30px;
+}
