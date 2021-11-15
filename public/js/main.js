@@ -1,4 +1,4 @@
-import { btnCouleur,btnBorder, btnSizeBorder,visuel,affichageBordure,boutonChoix,border2,borderRadius,clearAll,supprimeTout} from "./variable.js";
+import { btnCouleur,btnBorder, btnSizeBorder,visuel,affichageBordure,boutonChoix,border2,borderRadius,clearAll,supprimeTout, couleurs} from "./variable.js";
 
 
 
@@ -29,12 +29,8 @@ for (let i = 0; i < btnSizeBorder.length; i++) {
         }
     })
 };
-// choix couleur
-boutonChoix.addEventListener("input", () => {
-    visuel.style.backgroundColor = boutonChoix.value;
-});
 
-
+couleurs();
 
 // bordure
 for (let i = 0; i < border2.length; i++) {

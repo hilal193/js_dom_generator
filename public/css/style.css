@@ -11,17 +11,18 @@ hr{
 }
 .button1{
     border: none;
-    width: 50px;
+    width: 60px;
     height: 50px;
     font-size: 1.3rem;
     margin-right: 1%;
     border-radius: 5px;
     margin: 7px;
     cursor: pointer;
+    color: white;
     
 }
 .button2{
-    width: 50px;
+    width: 70px;
     height: 40px;
     margin-top: 12px;
     background-color: white;
@@ -30,7 +31,7 @@ hr{
 
 }
 .button3{
-    width: 50px;
+    width: 60px;
     height: 50px;
     margin: 7px;
     border-radius: 5px;
@@ -39,6 +40,9 @@ hr{
 
     cursor: pointer;
 
+}
+.black{
+color: black;
 }
 .premier{
     display: flex;
@@ -53,7 +57,7 @@ hr{
     cursor: pointer;
 }
 .btnBorder{
-    width: 45px;
+    width: 70px;
     height: 45px;
     background-color: white;
     border: 0.1rem solid lightgray;
@@ -63,7 +67,7 @@ hr{
     display: flex;
 }
 .inputRadius{
-    width: 45px;
+    width: 90px;
     height: 45px;
     background-color: white;
     border: 0.2rem solid gray;
@@ -72,7 +76,7 @@ hr{
 .clearAll{
     height: 40px;
     width: 100px;
-    border-radius: 7px;
+    border-radius: 15px;
     background-color: rgb(125, 219, 125);
     color: red;
     cursor: pointer;
@@ -80,7 +84,10 @@ hr{
     margin-left: 15%;
 }
 *{
-    margin: 1%;
+    margin: 2%;
+}
+body{
+    height: 100vh;
 }
 .blanc{
     background-color: rgb(214, 212, 212);
@@ -128,4 +135,21 @@ hr{
 }
 .Bas{
     border-bottom: 5px solid black;
+}
+
+.basDroite{
+    border-bottom: none;
+    border-right: none;
+}
+.basGauche{
+    border-bottom: none;
+    border-left: none;
+}
+.hautGauche{
+    border-top: none;
+    border-left: none;
+}
+.hautDroite{
+    border-top: none;
+    border-right: none;
 }

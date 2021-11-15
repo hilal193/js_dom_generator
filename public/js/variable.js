@@ -18,3 +18,10 @@ clearAll.addEventListener("click", () => {
     border2[i].value = "0";
 })
 }
+
+export let couleurs=()=>{
+    // choix couleur
+boutonChoix.addEventListener("input", () => {
+    visuel.style.backgroundColor = boutonChoix.value;
+});
+}
